@@ -3,6 +3,11 @@
   "description": "Welcome message, color, newmsg and application system",
   "keywords": ["discord.py"],
   "logo": "https://i.imgur.com/WiKgIbf.png",
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
   "env": {
     "BOT_TOKEN": {
       "description": "Bot Token:"
