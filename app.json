@@ -2,7 +2,7 @@
   "name": "Discord bot template",
   "description": "Welcome message, color, newmsg and application system",
   "keywords": ["discord.py"],
-  "logo": "https://small-sharp-tool.com/logo.svg",
+  "logo": "https://i.imgur.com/WiKgIbf.png",
   "env": {
     "BOT_TOKEN": {
       "description": "Bot Token:",
