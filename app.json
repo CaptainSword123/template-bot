@@ -7,7 +7,78 @@
     "BOT_TOKEN": {
       "description": "Bot Token:",
       "value": ""
-    }
+    },
+    "EMBED": {
+      "description": "Embed rollen ID:",
+      "value": ""
+    },
+    "SERVER_ID": {
+      "description": "Server Id:",
+      "value": ""
+    },
+    "SUP_ID": {
+      "description": "SUPPORT PING | Supporterrolle Id:",
+      "value": "",
+      "required": false
+    },
+    "SVC": {
+      "description": "SUPPORT PING | Move to support channel Id:",
+      "value": "",
+      "required": false
+    },
+    "STC": {
+      "description": "SUPPORT PING | Support text channel Id:",
+      "value": "",
+      "required": false
+    },
+    "ASC": {
+      "description": "SUPPORT PING | Aktive Support Channel Ids (durch , trennen):",
+      "value": "",
+      "required": false
+    },
+    "COL_T": {
+      "description": "Farbfeld in der Frage:",
+      "value": "\n\nAngabe in HEX(#xxxxxx)\n`s`: FARBNAME\n`n`: Keine Farbe\n`#2ecc71` für Grün\n`#e74c3c` für Rot"
+    },
+    "COL": {
+      "description": "Hauptfarbe in HEX:",
+      "value": ""
+    },
+    "WELCOME": {
+      "description": "WELCOME MESSAGE | Welcome Channel Id:",
+      "value": "",
+      "required": false
+    },
+    "RMI": {
+      "description": "APPLICATION | Reactionmessage Id:",
+      "value": "",
+      "required": false
+    },
+    "RCI": {
+      "description": "APPLICATION | Reactiochannel Id:",
+      "value": "",
+      "required": false
+    },
+    "FRAGEN": {
+      "description": "APPLICATION | Fragen (getrennt durch ;):",
+      "value": "Wie alt bist du?;Wie heißt du? (ohne Nachname);Für welches Team möchtest du dich bewerben, siehe Player Voraussetzungen;Welche guten placements hast du?(top 3000);wie viele Arena Punkte hast du gerade?;könntest du hier dein Fortnite Tracker Link reinschicken;Hast du Earnings? (ohne Custom Games), wenn vorhanden mit Fortnite Tracker Link;Wie heißt du bei epic?;Würdest du deinen Ingame Name bei Discord und bei Fortnite zu FNE umbennen?;Auf welcher Plattform spielst du?;Möchtest du in Public oder im Kreativmodus getestet werden?;Bist du in der Lage aufzunehmen?",
+      "required": false
+    },
+    "ET": {
+      "description": "APPLICATION | Einführungstext bei der Bewerbung:",
+      "value": "Willkommen bei der Bewerbung!",
+      "required": false
+    },
+    "ROLE_ID": {
+      "description": "APPLICATION | Rollen Ids die die Nachricht erhalten (getrennt durch ,)",
+      "value": "",
+      "required": false
+    },
+    "BR": {
+      "description": "APPLICATION | Bewerber rollen id",
+      "value": "",
+      "required": false
+    },
   },
   "buildpacks": [
     {
