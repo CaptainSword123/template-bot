@@ -6,7 +6,7 @@
   "env": {
     "BOT_TOKEN": {
       "description": "Bot Token:",
-      "value": "no"
+      "value": ""
     }
   },
   "repository": "https://github.com/CaptainSword123/template-bot"
