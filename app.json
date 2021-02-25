@@ -5,35 +5,28 @@
   "logo": "https://i.imgur.com/WiKgIbf.png",
   "env": {
     "BOT_TOKEN": {
-      "description": "Bot Token:",
-      "value": ""
+      "description": "Bot Token:"
     },
     "EMBED": {
-      "description": "Embed rollen ID:",
-      "value": ""
+      "description": "Embed rollen ID:"
     },
     "SERVER_ID": {
-      "description": "Server Id:",
-      "value": ""
+      "description": "Server Id:"
     },
     "SUP_ID": {
       "description": "SUPPORT PING | Supporterrolle Id:",
-      "value": "",
       "required": false
     },
     "SVC": {
       "description": "SUPPORT PING | Move to support channel Id:",
-      "value": "",
       "required": false
     },
     "STC": {
       "description": "SUPPORT PING | Support text channel Id:",
-      "value": "",
       "required": false
     },
     "ASC": {
       "description": "SUPPORT PING | Aktive Support Channel Ids (durch , trennen):",
-      "value": "",
       "required": false
     },
     "COL_T": {
@@ -41,22 +34,18 @@
       "value": "\n\nAngabe in HEX(#xxxxxx)\n`s`: FARBNAME\n`n`: Keine Farbe\n`#2ecc71` für Grün\n`#e74c3c` für Rot"
     },
     "COL": {
-      "description": "Hauptfarbe in HEX:",
-      "value": ""
+      "description": "Hauptfarbe in HEX:"
     },
     "WELCOME": {
       "description": "WELCOME MESSAGE | Welcome Channel Id:",
-      "value": "",
       "required": false
     },
     "RMI": {
       "description": "APPLICATION | Reactionmessage Id:",
-      "value": "",
       "required": false
     },
     "RCI": {
       "description": "APPLICATION | Reactiochannel Id:",
-      "value": "",
       "required": false
     },
     "FRAGEN": {
@@ -71,19 +60,12 @@
     },
     "ROLE_ID": {
       "description": "APPLICATION | Rollen Ids die die Nachricht erhalten (getrennt durch ,)",
-      "value": "",
       "required": false
     },
     "BR": {
       "description": "APPLICATION | Bewerber rollen id",
-      "value": "",
       "required": false
     }
   },
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
   "repository": "https://github.com/CaptainSword123/template-bot"
  }
