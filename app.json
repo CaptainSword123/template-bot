@@ -9,5 +9,10 @@
       "value": ""
     }
   },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
   "repository": "https://github.com/CaptainSword123/template-bot"
  }
