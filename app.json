@@ -1,0 +1,11 @@
+{
+  "name": "Discord template bot",
+  "description": "Welcome message, color, newmsg and application system",
+  "keywords": ["discord.py"],
+  "env": {
+    "BOT_TOKEN": {
+      "description": "Bot Token:",
+      "value": "no"
+    },
+  "repository": "https://github.com/CaptainSword123/template-bot",
+ }
